@@ -8,7 +8,6 @@ $(function () {
             // console.log('ok')
             localStorage.removeItem('token')
             location.href = '/大事件项目/login.html'
-
             layer.close(index);
         });
     })
